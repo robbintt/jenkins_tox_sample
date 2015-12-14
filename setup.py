@@ -10,7 +10,8 @@ setup(name='MyPackage',
       url='http://github.com/robbintt',
 
       # the generic project will use lib/__init__.py
-      package_dir = {'':'jenkins_sample'}
+      # package_dir = {'':'lib'}
+      py_modules = ['lib']
 
       # packages sample:
       # packages=['mypackagedirectory', 'mypackagedirectory.mypackage'],
